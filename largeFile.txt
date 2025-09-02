@@ -1,0 +1,7 @@
+A page is a fixed size block of data in virtual memory
+and a frame is a fixed size block of physical memory 
+in RAM where these pages are loaded. Think of a page as
+a piece of a puzzle (virtual memory) While, a frame as the
+spot where it fits on the board (physical memory). 
+When a program runs its pages are mapped to available frames so the program can run even
+if the program size is larger than physical memory.
